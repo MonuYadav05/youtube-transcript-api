@@ -1,0 +1,15 @@
+{
+    "verson": 2,
+    "builds":[
+        {
+            "src":"./transcriptServer.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ]
+}
