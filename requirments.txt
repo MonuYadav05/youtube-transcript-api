@@ -1,3 +1,0 @@
-fastapi
-youtube_transcript_api
-fastapi.middleware.cors
